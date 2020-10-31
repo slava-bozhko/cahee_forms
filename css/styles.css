@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.bg{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.caption{
+    font-size: 9rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 45px;
+}
+.subtext{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5;
+    display: block;
+    max-width: 360px;
+}
+.flex{
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+}
+.forms{
+    width: 50%;
+}
+.contact{
+    width: 50%;
+}
+.contact__box{
+    margin-bottom: 25px;
+}
+.contact__caption{
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: block;
+    padding: 1px;
+}
+.contact__text{
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    padding: 1px;
+
+}
+.form__input{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    border-left: 5px solid transparent;
+    margin: 10px 0;
+    padding: 15px;
+    width: 500px;
+    height: 50px;
+    background-color: rgba(0, 196, 196, 0.5);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.form__input::placeholder{
+    color: #fff;
+}
+.form__input:focus{
+    background-color: rgba(0, 196, 196, 1);
+    border-left: 5px solid #355b82;
+}
+.form__input--lg{
+    height: 200px;
+}
+.foot{
+    background-color: #262626;
+    color: #b9b9b9;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.right{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    transform: rotate(-3deg);
+}
+.made{
+    font-size: 1.5rem;
+}
+.made__love{
+    color: #ff2b58;
+}
